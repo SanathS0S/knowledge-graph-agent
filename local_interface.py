@@ -26,7 +26,7 @@ def main():
         </style>
         """, unsafe_allow_html=True)
 
-    st.title("Knowledge Based Agent")
+    st.title("Knowledge Graph Agent")
 
     # Ensure the database is setup before handling any events
     db_ops = DBops()
